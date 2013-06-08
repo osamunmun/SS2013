@@ -8,10 +8,10 @@ words = s.split()
 
 d = {}
 
-for w in words: 
+for w in words:
     if d.has_key(w):
         d[w] += 1
-    else: 
+    else:
         d[w] = 1
 
 
@@ -25,5 +25,7 @@ for k in sored_keys:
     print k, ": ", d[k]
     i += 1
 
+
+print "a"
 
 
